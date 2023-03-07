@@ -20,4 +20,5 @@ from GitHub.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('GitHub/',GitHub,name='GitHub is Working'),
+    path('Pro/',Pro,name='Waiting'),
 ]
